@@ -173,19 +173,22 @@ button {
 .marquee-content {
 	font-size: var(--fs--4);
 	font-weight: var(--fw--5);
-	color: var(--color-gray-o);
+	color: var(--color-white);
 	margin: 35px 0 0;
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 10s linear infinite;
+  animation: marquee 12s linear infinite;
+	background-color: #f05c00;
+	padding: 10px 20px;
+	border-radius: 50px;
 }
 
 @keyframes marquee {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(250%);
   }
   100% {
-    transform: translateX(300%);
+    transform: translateX(-100%);
   }
 }
 
@@ -613,15 +616,15 @@ button {
 @media (max-width: 768px) {
 	.marquee-content {
 		font-size: var(--fs--3);
-		animation: marquee 10s linear infinite;
+		animation: marquee 16s linear infinite;
 	}
 
 	@keyframes marquee {
 		0% {
-			transform: translateX(-100%);
+			transform: translateX(250%);
 		}
 		100% {
-			transform: translateX(300%);
+			transform: translateX(-100%);
 		}
 	}
 
