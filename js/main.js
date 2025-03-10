@@ -45,10 +45,11 @@
 						duration: 2000,
 						easing: 'easeInQuad',
 						step: function (now){
-								$(this).text(Math.ceil(now));
+								$(this).text(Math.ceil(now).toLocaleString());
 						}
 				});
 		});
+
 
 
 		// Experience
