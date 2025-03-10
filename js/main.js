@@ -61,7 +61,7 @@
 		
 		// Pie Chart
 		var pieData = [{
-			values: [5613, 4768],
+			values: [5613, 4061],
 			labels: ['女性', '男性'],
 			type: 'pie',
 			marker: {
