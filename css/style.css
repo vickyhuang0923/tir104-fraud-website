@@ -333,7 +333,8 @@ button {
 #predict >.container, #total >.container{
 	padding-top:90px;
 }
- #ranking >.container,
+
+#ranking >.container,
 #gender >.container, #city >.container,
 #chart >.container, #article >.container {
 	padding-top:50px;
@@ -358,11 +359,18 @@ button {
 	text-align: center;
 }
 
-
 .left-line, .right-line {
 	background-color: var(--color-black);
 	height: .11rem;
 	width: 200px;
+}
+
+.source {
+	font-size: var(--fs--3);
+	font-weight: var(--fw--4);
+	color: var(--color-gray-o);
+	margin-top: -25px;
+	margin-bottom: 40px;
 }
 
 #total .block-style-1 {
